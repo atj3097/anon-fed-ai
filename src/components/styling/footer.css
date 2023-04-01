@@ -1,0 +1,27 @@
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #d4d4d4;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer__header h3 {
+    margin: 0;
+  }
+  
+  .footer__header a {
+    color: #000000;
+    text-decoration: none;
+  }
+  

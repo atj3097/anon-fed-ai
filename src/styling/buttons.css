@@ -1,0 +1,81 @@
+.primary-btn {
+    background-color: #004385;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .primary-btn:hover {
+    background-color: #003764;
+  }
+
+  .secondary-btn {
+    background-color: transparent;
+    color: #004385;
+    border: 2px solid #004385;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #004385;
+    color: #fff;
+  }
+
+  .ghost-btn {
+    background-color: transparent;
+    color: #004385;
+    border: 2px solid #004385;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .ghost-btn:hover {
+    background-color: #004385;
+    color: #fff;
+  }
+
+  .disabled-btn {
+    background-color: #c7c7c7;
+    color: #9b9b9b;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: not-allowed;
+  }
+
+  .fab {
+    background-color: #004385;
+    color: #fff;
+    border: none;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+  }
+  
+  .fab:hover {
+    transform: scale(1.05);
+  }
+  
