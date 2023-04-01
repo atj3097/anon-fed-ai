@@ -1,0 +1,18 @@
+/* InteractiveCard.css */
+
+.interactive-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-width: 2px;
+    transition: transform 0.1s ease, border-image-source 0.1s ease;
+    perspective: 1000px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
