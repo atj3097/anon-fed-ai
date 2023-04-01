@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Header from './components/header';
+import Footer from './components/footer';
+
+import UploadDataPage from './pages/UploadDataPage';
+import TrainingInitiationPage from './pages/TrainingInitiationPage';
+import ModelSelectionPage from './pages/ModelSelectionPage';
+import ModelAggregationPage from './pages/ModelAggregationPage';
+import ModelRetrievalPage from './pages/ModelRetrievalPage';
+import AboutPage from './pages/AboutPage';
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app-container">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={UploadDataPage} />
+          <Route path="/training-initiation" component={TrainingInitiationPage} />
+          <Route path="/model-selection" component={ModelSelectionPage} />
+          <Route path="/model-aggregation" component={ModelAggregationPage} />
+          <Route path="/model-retrieval" component={ModelRetrievalPage} />
+          <Route path="/about" component={AboutPage} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
