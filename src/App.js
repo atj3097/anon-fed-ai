@@ -5,7 +5,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 
 import UploadDataPage from './pages/upload-data/upload-data';
-import TrainingInitiationPage from './pages/training-initiatian-page/training-page';
+import TrainingInitiationPage from './pages/training-initiation-page/training-initiation-page';
 import ModelSelectionPage from './pages/model-selection/model-selection';
 import ModelAggregationPage from './pages/model-aggregation/model-aggregation';
 import ModelRetrievalPage from './pages/model-retrieval/model-retrieval';
@@ -13,7 +13,7 @@ import AboutPage from './pages/about-page/about-page';
 
 import './App.css';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <div className="app-container">
@@ -30,6 +30,6 @@ const App = () => {
       </div>
     </Router>
   );
-};
+}
 
 export default App;
