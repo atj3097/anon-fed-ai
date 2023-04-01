@@ -1,6 +1,6 @@
 // StatusText.js
 import React from 'react';
-import './ModelAggregationHistory.css';
+import "../../model-aggregation/styling/model-aggregation-history.css";
 
 const StatusText = ({ status }) => {
   return <p className="status-text">{status}</p>;

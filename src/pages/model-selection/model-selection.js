@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ModelCard from './model-card';
-import './styling/modelselection.css';
+import './styling/model-selection.css';
 
 const models = [
   // Add your machine learning models mock data here

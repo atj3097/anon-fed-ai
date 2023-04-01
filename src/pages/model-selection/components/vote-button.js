@@ -1,5 +1,5 @@
 import React from 'react';
-import './VoteButton.css';
+import './vote-button.css';
 
 const VoteButton = ({ onVote }) => {
   return (

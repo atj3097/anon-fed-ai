@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
 
 import Header from './components/header';
 import Footer from './components/footer';
 
 import UploadDataPage from './pages/upload-data/upload-data';
-import TrainingInitiationPage from './pages/training-initiation-page/training-initiation-page';
+import TrainingInitiationPage from './pages/training-initiatian-page/training-page';
 import ModelSelectionPage from './pages/model-selection/model-selection';
 import ModelAggregationPage from './pages/model-aggregation/model-aggregation';
 import ModelRetrievalPage from './pages/model-retrieval/model-retrieval';
@@ -18,14 +18,15 @@ function App() {
     <Router>
       <div className="app-container">
         <Header />
-        <Switch>
-          <Route path="/" exact component={UploadDataPage} />
-          <Route path="/training-initiation" component={TrainingInitiationPage} />
-          <Route path="/model-selection" component={ModelSelectionPage} />
-          <Route path="/model-aggregation" component={ModelAggregationPage} />
-          <Route path="/model-retrieval" component={ModelRetrievalPage} />
-          <Route path="/about" component={AboutPage} />
-        </Switch>
+        <Routes>
+            <Route path="/" exact element={<UploadDataPage />} />
+            <Route path="/training-initiation" element={<TrainingInitiationPage />} />
+            <Route path="/model-selection" element={<ModelSelectionPage />} />
+            <Route path="/model-aggregation" element={<ModelAggregationPage />} />
+            <Route path="/model-retrieval" element={<ModelRetrievalPage />} />
+            <Route path="/about" element={<AboutPage />} />
+        </Routes>
+
         <Footer />
       </div>
     </Router>

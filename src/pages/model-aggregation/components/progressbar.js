@@ -1,6 +1,6 @@
 // ProgressBar.js
 import React from 'react';
-import './ModelAggregationHistory.css';
+import "../../model-aggregation/styling/model-aggregation-history.css";
 
 const ProgressBar = ({ progress }) => {
   return (

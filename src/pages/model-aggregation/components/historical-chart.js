@@ -1,8 +1,8 @@
 // HistoricalChart.js
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import { historicalAggregationData } from './mockData';
-import './ModelAggregationHistory.css';
+import { historicalAggregationData } from '../../../mockdata/mock-historical-aggregation';
+import "../../model-aggregation/styling/model-aggregation-history.css";
 
 const HistoricalChart = () => {
   return (

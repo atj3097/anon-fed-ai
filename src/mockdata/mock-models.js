@@ -1,4 +1,4 @@
-export const models = [
+export const MOCK_DATA_MODELS = [
     {
       id: 1,
       name: "Linear Regression",
