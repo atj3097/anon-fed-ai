@@ -1,6 +1,6 @@
 import React from 'react';
-import { IPFSHashRetrieval } from './IPFSHashRetrieval';
-import { DownloadModel } from './DownloadModel';
+import { IPFSHashRetrieval } from './components/retrieve-hash';
+import { DownloadModel } from './components/download-model';
 import './ModelRetrieval.css';
 
 const ModelRetrieval = () => {

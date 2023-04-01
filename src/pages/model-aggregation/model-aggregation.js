@@ -1,8 +1,8 @@
 // ModelAggregationHistory.js
 import React from 'react';
-import ProgressBar from './progressbar';
-import StatusText from './StatusText';
-import HistoricalChart from './HistoricalChart';
+import ProgressBar from './components/progressbar';
+import StatusText from './components/statustext';
+import HistoricalChart from './components/historical-chart';
 import './ModelAggregationHistory.css';
 
 const ModelAggregationHistory = () => {

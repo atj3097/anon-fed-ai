@@ -1,6 +1,6 @@
 import React from 'react';
-import VoteButton from './VoteButton';
-import './ModelCard.css';
+import VoteButton from './components/vote-button';
+import './styling/model-card.css';
 
 const ModelCard = ({ model, voteCount, onVote }) => {
   return (

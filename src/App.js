@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 
-import UploadDataPage from './pages/UploadDataPage';
-import TrainingInitiationPage from './pages/TrainingInitiationPage';
-import ModelSelectionPage from './pages/ModelSelectionPage';
-import ModelAggregationPage from './pages/ModelAggregationPage';
-import ModelRetrievalPage from './pages/ModelRetrievalPage';
-import AboutPage from './pages/AboutPage';
+import UploadDataPage from './pages/upload-data/upload-data';
+import TrainingInitiationPage from './pages/training-initiatian-page/training-page';
+import ModelSelectionPage from './pages/model-selection/model-selection';
+import ModelAggregationPage from './pages/model-aggregation/model-aggregation';
+import ModelRetrievalPage from './pages/model-retrieval/model-retrieval';
+import AboutPage from './pages/about-page/about-page';
 
 import './App.css';
 
